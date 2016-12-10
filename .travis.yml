@@ -1,0 +1,7 @@
+language: go
+
+go:
+  - 1.7.x
+
+# this is necessary for fork builds to work
+go_import_path: github.com/runabove/metronome
